@@ -24,7 +24,7 @@ const Clients = () => {
                 <div className="p-16" data-aos="fade-in" data-aos-delay="600">
                     <div className="grid sm:grid-cols-3 lg:grid-cols-3">
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
-                            <img src={kws} alt="client" />                           
+                            <img src="https://img.freepik.com/free-photo/villa-house-model-key-drawing-retro-desktop-real-estate-sale-concept_1387-311.jpg?w=740&t=st=1706967141~exp=1706967741~hmac=95f6f786990cdecbf638286764cec2c3d009681e965500e22df3d96b6bacdad4" alt="client" />                           
                         </div>
 
                         <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
