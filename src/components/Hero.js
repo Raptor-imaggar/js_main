@@ -13,9 +13,11 @@ const Hero = () => {
                 
                 <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
 
-                    <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
+                    <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left md:mt-100">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                            <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
+                        <h1 className="mb-5 md:mt-8 md:text-5xl text-3xl font-bold text-blue-900">
+
+
                             {/* We build digital solutions to help businesses scale */}
                                 Bespoke software solutions for your unique business needs
                             </h1>
@@ -36,7 +38,7 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-                            <img alt="card img" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
+                            <img alt="card img" className="rounded-t float-right duration-1000 w-full" src="https://img.freepik.com/free-photo/view-3d-house-model_23-2150761166.jpg?t=st=1706963294~exp=1706966894~hmac=16e30b341dac9f66e71af577fde8ec8e9bbdc0fac99e6d5c1f8ad9e9fccda8cd&w=826" />
                         </div>
                     </div>
                 </div>
