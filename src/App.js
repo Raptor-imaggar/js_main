@@ -1,19 +1,19 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
+import React, { useEffect } from "react";
+import AOS from "aos";
 import "aos/dist/aos.css";
-import './index.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
+import "./index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // All pages
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import DemoProduct from './pages/DemoProduct';
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import DemoProduct from "./pages/DemoProduct";
 
-import {useDocTitle} from './components/CustomHook';
-import ScrollToTop from './components/ScrollToTop';
+import { useDocTitle } from "./components/CustomHook";
+import ScrollToTop from "./components/ScrollToTop";
+import Eachsites from "./pages/Eachsites";
+import NavBar from "./components/Navbar/NavBar";
+import Footer from "./components/Footer";
+import Slacesite from "./pages/Slacesite";
 
 function App() {
   useEffect(() => {
@@ -21,11 +21,11 @@ function App() {
       AOS.init({
         once: true,
         duration: 1000,
-        easing: 'ease-out-cubic',
+        easing: "ease-out-cubic",
       });
-    }
+    };
 
-    window.addEventListener('load', () => {
+    window.addEventListener("load", () => {
       aos_init();
     });
   }, []);
@@ -39,13 +39,32 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} /> 
+            <Route path="/get-demo" element={<DemoProduct />} />
+            <Route
+              path="/site"
+              element={
+                <>
+                  <NavBar />
+                  <Slacesite />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="/slacesite"
+              element={
+                <>
+                  <NavBar />
+                  <Eachsites />
+                  <Footer />
+                </>
+              }
+            />
           </Routes>
         </ScrollToTop>
       </Router>
     </>
   );
 }
-
 
 export default App;
