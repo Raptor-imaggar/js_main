@@ -10,10 +10,10 @@ import DemoProduct from "./pages/DemoProduct";
 
 import { useDocTitle } from "./components/CustomHook";
 import ScrollToTop from "./components/ScrollToTop";
-import Eachsites from "./pages/Eachsites";
 import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer";
 import Slacesite from "./pages/Slacesite";
+import Details from "./pages/Details";
 
 function App() {
   useEffect(() => {
@@ -55,7 +55,7 @@ function App() {
               element={
                 <>
                   <NavBar />
-                  <Eachsites />
+                  <Details />
                   <Footer />
                 </>
               }
