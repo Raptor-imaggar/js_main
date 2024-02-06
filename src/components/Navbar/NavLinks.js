@@ -29,7 +29,7 @@ const NavLinks = () => {
       <HashLink
         className="px-3 font-extrabold text-gray-500 hover:text-blue-900"
         smooth
-        to="/site#site">
+        to="/Slacesite#Slacesite">
         Slacesite
       </HashLink>
       <HashLink

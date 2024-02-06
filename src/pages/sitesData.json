@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image":"../images/clients/fo-img.jpg",
+      "image":"/fo-img.jpg",
       "location": "Bujra, India",
       "version": "Built in 2020",
       "date": ["6–11 Feb"],
