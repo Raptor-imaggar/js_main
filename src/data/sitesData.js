@@ -1,7 +1,7 @@
  const sitesData= [
     {
       "id": 1,
-      "image":"images/fo-img.jpg",
+      "image":"/images/fo-img.jpg",
       "location": "Bujra, India foo",
       "version": "Built in 2020",
       "date": ["6–11 Feb"],
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "image": "images/fo-img.jpg",
+      "image": "/images/fo-img.jpg",
       "location": "Bujra, India",
       "version": "Built in 2020 2",
       "date": ["6–11 Feb"],
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "image": "images/sc-img.jpg",
+      "image": "/images/sc-img.jpg",
       "location": "Bujra, India 3",
       "version": "Built in 2020",
       "date": ["6–11 Feb"],
@@ -25,7 +25,7 @@
     },
     {
       "id": 0,
-      "image": "images/tc-img.jpg",
+      "image": "/images/tc-img.jpg",
       "location": "Bujra, India",
       "version": "Built in 2020 ",
       "date": ["6–11 Feb"],
