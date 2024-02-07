@@ -1,7 +1,12 @@
 import React from "react";
 import img from "./fo-img.jpg";
+import sitesData from "../data/sitesData";
+import { useParams } from 'react-router-dom';
 
 export default function Details() {
+  const { index } = useParams();
+  const card = sitesData[parseInt(index)];
+  console.log(card)
   return (
     <div className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24">
       <div className="container mx-auto px-4 lg:px-20" data-aos="zoom-in">
@@ -17,7 +22,7 @@ export default function Details() {
             </div>
             <div className="relative p-3 col-start-1 row-start-1 flex flex-col justify-center rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1 lg:col-start-2">
               <h1 className="mt-1 text-lg font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">
-                Beach House in Collingwood
+                Beach House in Collingwood jonees
               </h1>
               <p className="text-sm leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-slate-400">
                 Entire house

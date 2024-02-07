@@ -49,7 +49,7 @@ function App() {
               }
             />
             <Route
-              path="/Details"
+              path="/Details/:index"
               element={
                 <>
                   <NavBar />

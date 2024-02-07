@@ -1,4 +1,4 @@
-[
+ const sitesData= [
     {
       "id": 1,
       "image":"/fo-img.jpg",
@@ -32,4 +32,4 @@
       "price": "₹91,294 night"
     }
   ]
-  
+export default sitesData
