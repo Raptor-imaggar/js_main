@@ -6,23 +6,25 @@ import { useParams } from 'react-router-dom';
 export default function Details() {
   const { index } = useParams();
   const card = sitesData[parseInt(index)];
-  console.log(card)
+  console.log(card.image)
   return (
     <div className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24">
       <div className="container mx-auto px-4 lg:px-20" data-aos="zoom-in">
         <main className="py-6 px-4 sm:p-6 md:py-10 md:px-8">
           <div className="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2">
             <div className="grid gap-4 col-start-1 col-end-3 row-start-1 sm:col-end-2 lg:col-span-1 lg:row-span-6">
+           
               <img
-                src={img}
-                alt=""
+                src= {card.image}
+                alt="not available"
                 className="w-full h-60 object-cover rounded-lg sm:h-52 lg:h-auto"
                 loading="lazy"
               />
+              <img src={card.image} />
             </div>
             <div className="relative p-3 col-start-1 row-start-1 flex flex-col justify-center rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1 lg:col-start-2">
               <h1 className="mt-1 text-lg font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">
-                Beach House in Collingwood jonees
+                {card.location}
               </h1>
               <p className="text-sm leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-slate-400">
                 Entire house
