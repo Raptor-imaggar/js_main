@@ -1,35 +1,67 @@
- const sitesData= [
-    {
-      "id": 1,
-      "image":"images/fo-img.jpg",
-      "location": "Bujra, India foo",
-      "version": "Built in 2020",
-      "date": ["6–11 Feb"],
-      "price": "₹91,294 night"
-    },
-    {
-      "id": 2,
-      "image": "images/fo-img.jpg",
-      "location": "Bujra, India",
-      "version": "Built in 2020 2",
-      "date": ["6–11 Feb"],
-      "price": "₹91,294 night"
-    },
-    {
-      "id": 3,
-      "image": "images/sc-img.jpg",
-      "location": "Bujra, India 3",
-      "version": "Built in 2020",
-      "date": ["6–11 Feb"],
-      "price": "₹91,294 night"
-    },
-    {
-      "id": 0,
-      "image": "images/tc-img.jpg",
-      "location": "Bujra, India",
-      "version": "Built in 2020 ",
-      "date": ["6–11 Feb"],
-      "price": "₹91,294 night"
-    }
-  ]
-export default sitesData
+const sitesData = [
+  {
+    id: 1,
+    image: "images/img7.webp",
+    location: "Namche, Nepal",
+    version: "Built in 2020",
+    date: ["6–11 Feb"],
+    price: "500",
+  },
+  {
+    id: 2,
+    image: "images/img2.jpg",
+    location: "Selat Mansion",
+    version: "Built in 2020",
+    date: ["6–11 Feb"],
+    price: "300",
+  },
+  {
+    id: 3,
+    image: "images/img8.webp",
+    location: "Machachi, Ecuador",
+    version: "Built in 2020",
+    date: ["6–11 Feb"],
+    price: "900",
+  },
+  {
+    id: 0,
+    image: "images/img4.jpg",
+    location: "Bujra, India",
+    version: "Built in 2020 ",
+    date: ["6–11 Feb"],
+    price: "360",
+  },
+  {
+    id: 4,
+    image: "images/img10.webp",
+    location: "Kekamatan Ubud",
+    version: "Built in 2020 ",
+    date: ["6–11 Feb"],
+    price: "600",
+  },
+  {
+    id: 5,
+    image: "images/img6.webp",
+    location: "Bujra, India",
+    version: "Built in 2020 ",
+    date: ["6–11 Feb"],
+    price: "200",
+  },
+  {
+    id: 6,
+    image: "images/tc-img.jpg",
+    location: "Tampakasirirng",
+    version: "Built in 2020 ",
+    date: ["6–11 Feb"],
+    price: "400",
+  },
+  {
+    id: 7,
+    image: "images/img9.webp",
+    location: "Uluwatu",
+    version: "Built in 2020 ",
+    date: ["6–11 Feb"],
+    price: "360",
+  },
+];
+export default sitesData;

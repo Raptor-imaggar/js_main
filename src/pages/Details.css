@@ -1,0 +1,91 @@
+.hights{
+    height:450px;
+    
+}
+.titile{
+    color: #1E3A8A;
+   text-align: center;
+   padding: 30px 0px 0px 0px ;
+   font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.description{
+    color: #00081e;
+   text-align: center;
+   padding: 5px 0px 0px 0px ;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line {
+    border-bottom: 1px solid #a5a5a5;
+   
+    
+  }
+  .Premium{
+    background-color: #395298;
+    width: fit-content;
+    padding: 4px 10px 4px 15px ;
+    color: white;
+    margin: -20px 0px 0px -4px ;
+    border-radius:5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+   letter-spacing: 2px;
+   font-size: 13px;
+  }
+.sparkle{
+    padding-right: 4px;
+    padding-top: 3px;
+}
+.textcolor{
+    color: #1E3A8A;
+    display: flex;
+}
+.lead{
+    color: rgb(153, 153, 153);
+    font-size: 75%;
+    margin-left: 6px;
+}
+.loc-color{
+    color: #555555;
+    letter-spacing: 1px;
+}
+.lead1{
+    color: rgb(153, 153, 153);
+    font-size: 75%;
+    margin:-6px 0px 0px 0px ;
+}
+.house{
+    padding: 15px;
+    display: flex;
+   justify-content: center;
+   color: rgb(97, 97, 97);
+}
+.homeicon{
+    color: rgb(153, 153, 153);
+    font-size: 80%;
+    padding-left: 4px;
+    margin-top: 2px;  
+    padding-right: 15px;
+    
+}
+@media (max-width:400px){
+    .Premium{
+        background-color: #395298;
+        width: fit-content;
+        padding: 4px 7px 4px 10px ;
+        color: white;
+        margin: -20px 0px 0px -4px ;
+        border-radius:5px;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+       letter-spacing: 2px;
+       font-size: 13px;
+      }
+    .sparkle{
+        padding-right: 4px;
+        padding-top: 3px;
+    }
+}
