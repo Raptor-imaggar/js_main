@@ -1,7 +1,7 @@
 const sitesData = [
   {
     id: 1,
-    image: "images/img7.webp",
+    image: ["/images/img7.webp","/images/tc-img.jpg"],
     location: "Namche, Nepal",
     version: "Built in 2020",
     date: ["6–11 Feb"],
@@ -9,7 +9,7 @@ const sitesData = [
   },
   {
     id: 2,
-    image: "images/img2.jpg",
+    image: ["/images/img2.jpg" ,"/images/img7.webp","/images/tc-img.jpg"],
     location: "Selat Mansion",
     version: "Built in 2020",
     date: ["6–11 Feb"],
@@ -17,7 +17,7 @@ const sitesData = [
   },
   {
     id: 3,
-    image: "images/img8.webp",
+    image: ["/images/img8.webp","/images/img7.webp","/images/tc-img.jpg"],
     location: "Machachi, Ecuador",
     version: "Built in 2020",
     date: ["6–11 Feb"],
@@ -25,7 +25,7 @@ const sitesData = [
   },
   {
     id: 0,
-    image: "images/img4.jpg",
+    image: ["/images/img4.jpg","/images/img7.webp","/images/tc-img.jpg"],
     location: "Bujra, India",
     version: "Built in 2020 ",
     date: ["6–11 Feb"],
@@ -33,7 +33,7 @@ const sitesData = [
   },
   {
     id: 4,
-    image: "images/img10.webp",
+    image: ["/images/img10.webp","/images/img7.webp","/images/tc-img.jpg"],
     location: "Kekamatan Ubud",
     version: "Built in 2020 ",
     date: ["6–11 Feb"],
@@ -41,7 +41,7 @@ const sitesData = [
   },
   {
     id: 5,
-    image: "images/img6.webp",
+    image: ["/images/img6.webp","/images/img7.webp","/images/tc-img.jpg"],
     location: "Bujra, India",
     version: "Built in 2020 ",
     date: ["6–11 Feb"],
@@ -49,7 +49,7 @@ const sitesData = [
   },
   {
     id: 6,
-    image: "images/tc-img.jpg",
+    image: ["/images/tc-img.jpg","/images/img7.webp","images/tc-img.jpg"],
     location: "Tampakasirirng",
     version: "Built in 2020 ",
     date: ["6–11 Feb"],
@@ -57,7 +57,7 @@ const sitesData = [
   },
   {
     id: 7,
-    image: "images/img9.webp",
+    image: ["images/img9.webp","images/img7.webp","images/tc-img.jpg"],
     location: "Uluwatu",
     version: "Built in 2020 ",
     date: ["6–11 Feb"],

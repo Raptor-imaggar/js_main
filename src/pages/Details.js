@@ -2,23 +2,20 @@ import React from "react";
 import sitesData from "../data/sitesData";
 import { useParams } from "react-router-dom";
 import ImgSlider from "../components/ImgSlider";
-import img1 from "./fc-img.jpg";
-import img2 from "./fo-img.jpg";
-import img3 from "./sc-img.jpg";
 
 export default function Details() {
   const { index } = useParams();
   const card = sitesData[parseInt(index)];
-  console.log(card.image);
-
+  alert(card.image)
   return (
     <>
       <div className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24 ">
         <div
           className="container mx-auto my-2 px-4 lg:px-20"
-          data-aos="zoom-in">
-          <ImgSlider image1={img1} image2={img2} image3={img3} />
-          <div className="titile">
+          data-aos="zoom-in"
+        >
+          <ImgSlider images={card.image} />
+          <div className="title">
             <h1>Private room in hostel in India</h1>
           </div>
           <div className="description">
@@ -31,10 +28,9 @@ export default function Details() {
               creators.
             </p>
           </div>
-          <div class="line"></div>
+          <div className="line"></div>
         </div>
       </div>
-          
     </>
   );
 }

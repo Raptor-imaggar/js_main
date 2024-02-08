@@ -21,18 +21,18 @@ export default function ImgSlider({ images }) {
       >
         &lt;
       </button>
-      <div className="w-full h-[50vh] overflow-hidden relative">
+      <div className="w-full h-[20vh] overflow-hidden relative">
         {images.map((image, index) => (
           <div
             key={index}
-            className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
-              index === currentSlide ? "opacity-100" : "opacity-0"
+            className={`absolute top-0 left-0  ${
+              index === currentSlide ? "block" : "hidden"
             }`}
           >
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
+              className=" object-cover"
             />
           </div>
         ))}
