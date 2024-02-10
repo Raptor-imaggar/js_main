@@ -14,26 +14,32 @@ const MldData={
     services:{
         service_title:"SERVICES",
         service_sub_title:"We are deeply committed to the growth and success of our clients.",
-        service1:{
+        service_data:[
+        {
+            id:1,
             service_img:"./images/clients/geps.png",
             service_name:"Web Development",
             service_discription:"We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients."
         },
-        service2:{
+        {
+            id:2,
             service_img:"./images/clients/geps.png",
             service_name:"Web Development",
             service_discription:"We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients."
         },
-        service3:{
+        {
+            id:3,
             service_img:"./images/clients/geps.png",
             service_name:"Web Development",
             service_discription:"We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients."
         },
-        service4:{
+        {
+            id:4,
             service_img:"./images/clients/geps.png",
             service_name:"Web Development",
             service_discription:"We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients."
-        },
+        }
+    ],
     },
     build:{
         build_img:"./images/clients/geps.png",
@@ -47,27 +53,33 @@ const MldData={
     },
     productsDemo:{
         product_title:"PRODUCTS",
-        product1:{
+        product_details:[
+        {
+            id:1,
             product_name:"Business Management System",
             product_discription:"Our Business Management System is a robust and easily scalable system that streamlines business operations, increase efficiency, and ultimately drive growth and profitability for your business. With features such as employee management, finance control, and many more modules to effectively manage all aspects of a business. All data is stored in the cloud and as such it is easily accessible from all devices and from any location.",
             product_butt:"Schedule Demo"
         },
-        product2:{
+        {
+            id:2,
             product_name:"Business Management System",
             product_discription:"Our Business Management System is a robust and easily scalable system that streamlines business operations, increase efficiency, and ultimately drive growth and profitability for your business. With features such as employee management, finance control, and many more modules to effectively manage all aspects of a business. All data is stored in the cloud and as such it is easily accessible from all devices and from any location.",
             product_butt:"Schedule Demo"
         },
-        product3:{
+        {
+            id:3,
             product_name:"Business Management System",
             product_discription:"Our Business Management System is a robust and easily scalable system that streamlines business operations, increase efficiency, and ultimately drive growth and profitability for your business. With features such as employee management, finance control, and many more modules to effectively manage all aspects of a business. All data is stored in the cloud and as such it is easily accessible from all devices and from any location.",
             product_butt:"Schedule Demo"
         },
-        product4:{
+        {
+            id:4,
             product_name:"Business Management System",
             product_discription:"Our Business Management System is a robust and easily scalable system that streamlines business operations, increase efficiency, and ultimately drive growth and profitability for your business. With features such as employee management, finance control, and many more modules to effectively manage all aspects of a business. All data is stored in the cloud and as such it is easily accessible from all devices and from any location.",
             product_butt:"Schedule Demo"
-        },
-    },
+        }
+    ]
+},
     clients:{
         client:{
             cli_title:"OUR CLIENTS",
