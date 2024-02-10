@@ -36,7 +36,7 @@ function App() {
     // Hide loading after 4 seconds
     const loadingTimer = setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 2000);
 
     return () => {
       clearTimeout(loadingTimer);
