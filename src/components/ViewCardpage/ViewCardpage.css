@@ -1,258 +1,408 @@
-.UmboFarms{
-    font-size: xx-large;
-   color: rgb(17, 17, 101);
-   padding-top: 10px;
-   font-weight: 600;
-   padding-bottom: 25px;
+/* Styling for the heading "UmboFarms" */
+.UmboFarms {
+  font-size: xx-large;
+  color: rgb(17, 17, 101);
+  padding-top: 10px;
+  font-weight: 600;
+  padding-bottom: 25px;
 }
-.UmboFarms-loc{
-    font-size: x-large;
-   padding-top: 10px;
-   font-weight: 600;
-   letter-spacing: 1px;
-   color: rgb(14, 14, 67);
+
+/* Styling for the location information */
+.UmboFarms-loc {
+  font-size: x-large;
+  padding-top: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(14, 14, 67);
 }
-.descriptions{
-    color: rgb(151, 151, 151);
-    padding-left: 5px;
-    color: rgb(9, 9, 42);
+
+/* Styling for description text */
+.descriptions {
+  color: rgb(151, 151, 151);
+  padding-left: 5px;
+  color: rgb(9, 9, 42);
 }
-.maploc{
-    color: rgb(97, 97, 97);
-    display: flex;
-    padding-top: 5px;
-    color: rgb(9, 9, 42);
+
+/* Styling for the map location */
+.maploc {
+  color: rgb(97, 97, 97);
+  display: flex;
+  padding-top: 5px;
+  color: rgb(9, 9, 42);
 }
-.img-rate{
-    display: flex;
-    margin-left: 6px;
-    padding-top: 5px;
-    color: rgb(9, 9, 42);
+
+/* Styling for the image rating */
+.img-rate {
+  display: flex;
+  margin-left: 6px;
+  padding-top: 5px;
+  color: rgb(9, 9, 42);
 }
-.img-rate1{
-    margin-top: 3px;
-    padding-right: 2px;
-    font-size: large;
-    font-weight: bold;
+
+/* Styling for the star icon in image rating */
+.img-rate1 {
+  margin-top: 3px;
+  padding-right: 2px;
+  font-size: large;
+  font-weight: bold;
 }
-.Reviews78{
-    text-decoration: underline;
-    font-size: medium;
-    font-weight: bold;
-    padding-bottom: 10px;
-    padding-bottom: 30px;
+
+/* Styling for the number of reviews */
+.Reviews78 {
+  text-decoration: underline;
+  font-size: medium;
+  font-weight: bold;
+  padding-bottom: 30px; /* corrected duplicated property */
 }
-.cardcont{
-    display: flex;
-    justify-content: space-between;
-   
+
+/* Styling for the card container */
+.cardcont {
+  display: flex;
+  justify-content: space-between;
 }
-.liness{
-    border-bottom: 1px solid#a5a5a56e;
+
+/* Styling for horizontal lines */
+.liness {
+  border-bottom: 1px solid#a5a5a56e;
 }
-.liness1{
-    border-bottom: 1px solid #a5a5a56e;
-    width: 700px;
+
+/* Styling for horizontal lines with specified width */
+.liness1 {
+  border-bottom: 1px solid #a5a5a56e;
+  width: 700px;
 }
-.Pricepages{
-    margin-left: 725px;
-    margin-top: -120px;
-    position: absolute;
+
+/* Styling for the price pages */
+.Pricepages {
+  margin-left: 725px;
+  margin-top: -120px;
+  position: absolute;
 }
+
+/* Styling for the person list */
 .person-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: rgb(9, 9, 42);
-  }
-  
-  .person {
-    display: flex;
-    align-items: center;
-    color: rgb(9, 9, 42);
-  }
-  
-  .person img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-    padding: 3px;
-  }
-  .person-info h3 {
-    margin: 0;
-  }
-  .person-info p {
-    margin: 0;
-    color: #888;
-  }
-
-  .row {
-    background-color: #fff;
-    margin-bottom: 18px;
-    padding: 10px;
-    margin-top: 20px;
-    color: rgb(38, 38, 179);
-  }
-  
-  .row h2 {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 0px;
-    font-weight:bold;
-  }
-  .row p {
-    font-size: 16px;
-    color: #666;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-    
-  }
-  .grid-item {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  .grid-item i {
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  .grid-item span {
-    font-size: 16px;
-    color: rgb(11, 11, 42);
-    display: flex;
-
-    
-    
-  }
-  
- .titleoffer{
-    padding-top: 30px;
-    font-size: x-large;
-    font-weight: bold;
-    color: rgb(18, 18, 66);
- }
- .custom-button {
-    background-color:  #616d8c;
-    color: rgb(255, 255, 255); 
-    margin-left:120px;
-    width: 300px; 
-    height: 50px;
-    display: inline-block;
-    border-radius: 8px;
-    padding: 5px 10px; 
-  }
-  .custom-button:hover {
-    background-color: #1E3A8A;
-    
-  }
-  .straight{
-    border-bottom: 1px solid#a5a5a56e;
-    padding-bottom: 30px;
-    padding-top: 20px;
-
-  }
-  .reviews {
-    width: 500px; 
-    display: flex;
-    justify-content: space-between;
-    
-  }
-  
-  .review {
-    padding: 20px 0;
-  }
-  
-  .user-info {
-    display: flex;
-    
-  }
-  
-  .user-info img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .user-details {
-    flex: 1;
-    
-  }
-  
-  .comment {
-    margin-top: 10px;
-    margin-right: 50px;
-    color: #555;
-  }
-.starloding{
-    display: flex;
-}  
-.spangap{
-  
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(9, 9, 42);
 }
-.iconoffer{
-    padding-left: 10px;
+
+/* Styling for each person entry */
+.person {
+  display: flex;
+  align-items: center;
+  color: rgb(9, 9, 42);
 }
-.commentalign{
+
+/* Styling for the person's image */
+.person img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+/* Styling for the person's information */
+.person-info h3 {
+  margin: 0;
+}
+
+.person-info p {
+  margin: 0;
+  color: #888;
+}
+
+/* Styling for row elements */
+.row {
+  background-color: #fff;
+  margin-bottom: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  color: rgb(38, 38, 179);
+}
+
+/* Styling for row heading */
+.row h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+/* Styling for row paragraph */
+.row p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styling for Specifications section on larger screens */
+.titleoffer {
+  padding-top: 30px;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(18, 18, 66);
+}
+
+/* Styling for the grid container on larger screens */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Styling for each grid item on larger screens */
+.grid-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the icon in each grid item on larger screens */
+.grid-item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Styling for text in each grid item on larger screens */
+.grid-item span {
+  font-size: 16px;
+  color: rgb(11, 11, 42);
   display: flex;
 }
-.custom-button1{
-  background-color:  #616d8c;
-  color: rgb(255, 255, 255); 
-  margin-left:0px;
-  width: 300px; 
+
+/* Styling for "Show all amenities" button on larger screens */
+.custom-button {
+  background-color: #0046f6;
+  color: rgb(255, 255, 255);
+  margin-left: 0;
+  width: 300px;
   height: 50px;
   display: inline-block;
   border-radius: 8px;
-  padding: 5px 10px; 
-}
-.custom-button1:hover {
-  background-color: #1E3A8A;
+  padding: 5px 10px;
 }
 
+/* Hover styling for "Show all amenities" button on larger screens */
+.custom-button:hover {
+  background-color: #1e3a8a;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  /* Adjusting Specifications section font size on smaller screens */
+  .titleoffer {
+    font-size: large;
+  }
+
+  /* Changing grid layout to a single column on smaller screens */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Centering grid items on smaller screens */
+  .grid-item {
+    justify-content: center;
+  }
+
+  /* Adjusting "Show all amenities" button width on smaller screens */
+  .custom-button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+/* Styling for a straight line */
+.straight {
+  border-bottom: 1px solid#a5a5a56e;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+/* Styling for reviews section */
+.reviews {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for each review */
+.review {
+  padding: 20px 0;
+}
+
+/* Styling for user information in a review */
+.user-info {
+  display: flex;
+}
+
+/* Styling for user's image in a review */
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Styling for user's details in a review */
+.user-details {
+  flex: 1;
+}
+
+/* Styling for comment text in a review */
+.comment {
+  margin-top: 10px;
+  margin-right: 50px;
+  color: #555;
+}
+
+/* Styling for star loading section */
+.starloding {
+  display: flex;
+}
+
+/* Styling for space between elements */
+.spangap {
+  display: flex;
+}
+
+/* Styling for offer icon */
+.iconoffer {
+  padding-left: 10px;
+}
+
+/* Styling for comment alignment */
+.commentalign {
+  display: flex;
+}
+
+/* Styling for custom button 1 */
+.custom-button1 {
+  background-color: #616d8c;
+  color: rgb(255, 255, 255);
+  margin-left: 0px;
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+/* Hover styling for custom button 1 */
+.custom-button1:hover {
+  background-color: #1e3a8a;
+}
+
+/* Styling for heading */
 .heading {
   font-size: 18px;
   font-weight: bold;
-  color: #333; 
+  color: #333;
 }
 
-
+/* Styling for subheading */
 .subheading {
   font-size: 15px;
-  font-weight: normal; 
+  font-weight: normal;
   color: #666;
   padding-top: 10px;
 }
-.thangsto1{
+
+/* Styling for each thangsto1 element */
+.thangsto1 {
   padding-top: 10px;
 }
 
-.thangsbutton{
-  background-color:  #616d8c;
-  color: rgb(255, 255, 255); 
-  margin-left:0px;
-  width: 150px; 
+/* Styling for "Show more" button in thangsto1 */
+.thangsbutton {
+  background-color: #616d8c;
+  color: rgb(255, 255, 255);
+  margin-left: 0px;
+  width: 150px;
   height: 40px;
   display: inline-block;
   border-radius: 8px;
-  
 }
+
+/* Hover styling for "Show more" button in thangsto1 */
 .thangsbutton:hover {
-  background-color: #1E3A8A;
+  background-color: #1e3a8a;
 }
-.thangsbuttons{
+
+/* Styling for thangsbuttons section in thangs1 */
+.thangsbuttons {
   padding-top: 10px;
 }
-.thangs1{
+
+/* Styling for thangs1 section */
+.thangs1 {
   display: flex;
   justify-content: space-between;
+}
+
+
+
+/* Mobile responsiveness for the reviews section */
+@media (max-width: 768px) {
+  .commentalign {
+    flex-direction: column;
+    
+  }
+
+  .reviews {
+    
+    width: 100%;
+  }
+
+  .left,
+  .review {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .user-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-info img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Further adjustment for screens with a width of 400 pixels or less */
+@media (max-width: 400px) {
+  .commentalign {
+    padding: 10px;
+  }
+}
+
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  /* Adjusting font size for the "Things to know" heading on smaller screens */
+  .titleoffer {
+    font-size: large;
+  }
+
+  /* Changing the flex direction to a column for "Things to know" items on smaller screens */
+  .thangs1 {
+    flex-direction: column;
+  }
+
+  /* Centering each item in "Things to know" section on smaller screens */
+  .thangsto1 {
+    margin-bottom: 20px;
+  }
+
+  /* Adjusting font size for "Main Heading" and "Cancellation policy" on smaller screens */
+  .heading {
+    font-size: 16px;
+  }
 }

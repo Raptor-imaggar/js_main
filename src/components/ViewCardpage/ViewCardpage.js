@@ -10,20 +10,6 @@ import { FaMapMarkerAlt, FaStar } from "react-icons/fa";
 
 import { FaPersonSwimming } from "react-icons/fa6";
 
-const ThangItem = ({ heading, subheadings }) => (
-  <div className="thangsto1">
-    <h1 className="heading">{heading}</h1>
-    {subheadings.map((subheading, index) => (
-      <h2 key={index} className="subheading">
-        {subheading}
-      </h2>
-    ))}
-    <div className="thangsbuttons">
-      <button className="thangsbutton">Show more</button>
-    </div>
-  </div>
-);
-
 export default function Details() {
   const { index } = useParams();
   const card = sitesData[parseInt(index)];
@@ -40,12 +26,16 @@ export default function Details() {
           <ImgSlider images={card.image} />
 
           <div>
-          <div className="UmboFarms-loc">Entire villa in Pawna Lake, India</div>
-          <div className="descriptions">By Real Value Land Promoters and Builders Pvt. Ltd.</div>
-          <div className="maploc">
-            <FaMapMarkerAlt size="20px" />
-            123, ABC Street, Chennai - 600001, Tamil Nadu, India.
-          </div>
+            <div className="UmboFarms-loc">
+              Entire villa in Pawna Lake, India
+            </div>
+            <div className="descriptions">
+              By Real Value Land Promoters and Builders Pvt. Ltd.
+            </div>
+            <div className="maploc">
+              <FaMapMarkerAlt size="20px" />
+              123, ABC Street, Chennai - 600001, Tamil Nadu, India.
+            </div>
             <div className="img-rate">
               <div className="img-rate1">
                 <FaStar />
@@ -175,8 +165,6 @@ export default function Details() {
                     <p class="comment">
                       Amazing place! Words might not do the justice; you must
                       experience it. Serene surroundings, mind-blowing views
-                      
-
                     </p>
                   </div>
                 </div>
@@ -202,7 +190,6 @@ export default function Details() {
                     <p class="comment">
                       Amazing place! Words might not do the justice; you must
                       experience it. Serene surroundings, mind-blowing views
-                      
                     </p>
                   </div>
                 </div>
@@ -214,9 +201,51 @@ export default function Details() {
           <div className="straight"></div>
           <div className="titleoffer">Things to know</div>
           <div className="thangs1">
-            <ThangItem heading="Main Heading" subheadings={["Check-in: 12:00 pm – 3:00 pm", "Checkout before 10:00 am", "4 guests maximum"]} />
-            <ThangItem heading="Cancellation policy" subheadings={["Free cancellation before 12:00 pm on 10 Feb.", "Review the Host’s full cancellation policy", "Applies even if you cancel"]} />
-            <ThangItem heading="Safety & property" subheadings={["Carbon monoxide alarm not reported", "Smoke alarm not reported", "Security camera/recording device"]} />
+            <div className="thangsto1">
+              <h1 className="heading">Main Heading</h1>
+              {[
+                "Check-in: 12:00 pm – 3:00 pm",
+                "Checkout before 10:00 am",
+                "4 guests maximum",
+              ].map((subheading, index) => (
+                <h2 key={index} className="subheading">
+                  {subheading}
+                </h2>
+              ))}
+              <div className="thangsbuttons">
+                <button className="thangsbutton">Show more</button>
+              </div>
+            </div>
+            <div className="thangsto1">
+              <h1 className="heading">Cancellation policy</h1>
+              {[
+                "Free cancellation before 12:00 pm on 10 Feb.",
+                "Review the Host’s full cancellation policy",
+                "Applies even if you cancel",
+              ].map((subheading, index) => (
+                <h2 key={index} className="subheading">
+                  {subheading}
+                </h2>
+              ))}
+              <div className="thangsbuttons">
+                <button className="thangsbutton">Show more</button>
+              </div>
+            </div>
+            <div className="thangsto1">
+              <h1 className="heading">Safety & property</h1>
+              {[
+                "Carbon monoxide alarm not reported",
+                "Smoke alarm not reported",
+                "Security camera/recording device",
+              ].map((subheading, index) => (
+                <h2 key={index} className="subheading">
+                  {subheading}
+                </h2>
+              ))}
+              <div className="thangsbuttons">
+                <button className="thangsbutton">Show more</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
