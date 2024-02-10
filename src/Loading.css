@@ -1,0 +1,34 @@
+/* Loading.css */
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loading-logo-container {
+    width: 100px; /* Set the appropriate width for your logo container */
+    height: 100px; /* Set the appropriate height for your logo container */
+    border: 4px solid transparent; /* Set a transparent border for the spinning animation */
+    border-radius: 50%; /* Make the border round */
+    position: relative;
+    animation: spin 1s infinite linear; /* Apply spin animation to the border only */
+  }
+  
+  .loading-logo {
+    width: 100%; /* Make sure the logo takes up the entire container */
+    height: 100%; /* Make sure the logo takes up the entire container */
+    border-radius: 50%; /* Make the logo round */
+    transform: translateZ(0); /* Ensure hardware acceleration for better performance */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
