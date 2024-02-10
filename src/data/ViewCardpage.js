@@ -1,10 +1,10 @@
 const detailsData = {
     gried:{
         image1:"/images/fo-img.jpg",
-        image2:"/images/fo-img.jpg",
-        image3:"/images/fo-img.jpg",
-        image4:"/images/fo-img.jpg",
-        image5:"/images/fo-img.jpg"
+        image2:"/images/img6.jpg",
+        image3:"/images/img7.jpg",
+        image4:"/images/img7.jpg",
+        image5:"/images/img8.jpg"
     },
     land:{
         title:" bungalow in Jog Falls",

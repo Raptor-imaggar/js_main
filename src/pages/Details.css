@@ -18,7 +18,7 @@
 }
 .line {
     border-bottom: 1px solid #a5a5a5;
-   
+    
     
   }
   .Premium{
@@ -70,22 +70,25 @@
     padding-right: 15px;
     
 }
-@media (max-width:400px){
-    .Premium{
-        background-color: #395298;
-        width: fit-content;
-        padding: 4px 7px 4px 10px ;
-        color: white;
-        margin: -20px 0px 0px -4px ;
-        border-radius:5px;
-        position: absolute;
-        display: flex;
-        flex-wrap: wrap;
-       letter-spacing: 2px;
-       font-size: 13px;
-      }
-    .sparkle{
-        padding-right: 4px;
-        padding-top: 3px;
-    }
+.Arrowbutton{
+    color: #a6a6a6;
+}
+.Arrowbutton:hover{
+    color: #fffafa;
+}
+.height{
+    height: 200px;
+}
+.bookbotton{
+    background-color:#1E3A8A;
+    color: white;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 5px;
+    height: 25px;
+}
+.bookbotton1{
+    text-align: center;
+    padding-bottom: 10px;
 }

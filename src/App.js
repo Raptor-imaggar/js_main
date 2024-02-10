@@ -10,8 +10,8 @@ import { useDocTitle } from "./components/CustomHook";
 import ScrollToTop from "./components/ScrollToTop";
 import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer";
-import Slacesite from "./pages/Slacesite";
-import Details from "./pages/Details";
+import ViewCardpage from "./components/ViewCardpage/ViewCardpage";
+import SitesCardpage from "./pages/SitesCardpage";
 
 function App() {
   useEffect(() => {
@@ -43,7 +43,7 @@ function App() {
               element={
                 <>
                   <NavBar />
-                  <Slacesite />
+                  <SitesCardpage />
                   <Footer />
                 </>
               }
@@ -53,12 +53,14 @@ function App() {
               element={
                 <>
                   <NavBar />
-                  <Details/>
+                  <ViewCardpage />
                   <Footer />
                 </>
               }
             />
+            
           </Routes>
+          
         </ScrollToTop>
       </Router>
     </>

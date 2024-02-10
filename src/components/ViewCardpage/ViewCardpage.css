@@ -1,0 +1,258 @@
+.UmboFarms{
+    font-size: xx-large;
+   color: rgb(17, 17, 101);
+   padding-top: 10px;
+   font-weight: 600;
+   padding-bottom: 25px;
+}
+.UmboFarms-loc{
+    font-size: x-large;
+   padding-top: 10px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   color: rgb(14, 14, 67);
+}
+.descriptions{
+    color: rgb(151, 151, 151);
+    padding-left: 5px;
+    color: rgb(9, 9, 42);
+}
+.maploc{
+    color: rgb(97, 97, 97);
+    display: flex;
+    padding-top: 5px;
+    color: rgb(9, 9, 42);
+}
+.img-rate{
+    display: flex;
+    margin-left: 6px;
+    padding-top: 5px;
+    color: rgb(9, 9, 42);
+}
+.img-rate1{
+    margin-top: 3px;
+    padding-right: 2px;
+    font-size: large;
+    font-weight: bold;
+}
+.Reviews78{
+    text-decoration: underline;
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-bottom: 30px;
+}
+.cardcont{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.liness{
+    border-bottom: 1px solid#a5a5a56e;
+}
+.liness1{
+    border-bottom: 1px solid #a5a5a56e;
+    width: 700px;
+}
+.Pricepages{
+    margin-left: 725px;
+    margin-top: -120px;
+    position: absolute;
+}
+.person-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(9, 9, 42);
+  }
+  
+  .person {
+    display: flex;
+    align-items: center;
+    color: rgb(9, 9, 42);
+  }
+  
+  .person img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 3px;
+  }
+  .person-info h3 {
+    margin: 0;
+  }
+  .person-info p {
+    margin: 0;
+    color: #888;
+  }
+
+  .row {
+    background-color: #fff;
+    margin-bottom: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(38, 38, 179);
+  }
+  
+  .row h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 0px;
+    font-weight:bold;
+  }
+  .row p {
+    font-size: 16px;
+    color: #666;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    
+  }
+  .grid-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .grid-item i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .grid-item span {
+    font-size: 16px;
+    color: rgb(11, 11, 42);
+    display: flex;
+
+    
+    
+  }
+  
+ .titleoffer{
+    padding-top: 30px;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(18, 18, 66);
+ }
+ .custom-button {
+    background-color:  #616d8c;
+    color: rgb(255, 255, 255); 
+    margin-left:120px;
+    width: 300px; 
+    height: 50px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px 10px; 
+  }
+  .custom-button:hover {
+    background-color: #1E3A8A;
+    
+  }
+  .straight{
+    border-bottom: 1px solid#a5a5a56e;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+  }
+  .reviews {
+    width: 500px; 
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .review {
+    padding: 20px 0;
+  }
+  
+  .user-info {
+    display: flex;
+    
+  }
+  
+  .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    flex: 1;
+    
+  }
+  
+  .comment {
+    margin-top: 10px;
+    margin-right: 50px;
+    color: #555;
+  }
+.starloding{
+    display: flex;
+}  
+.spangap{
+  
+    display: flex;
+}
+.iconoffer{
+    padding-left: 10px;
+}
+.commentalign{
+  display: flex;
+}
+.custom-button1{
+  background-color:  #616d8c;
+  color: rgb(255, 255, 255); 
+  margin-left:0px;
+  width: 300px; 
+  height: 50px;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 5px 10px; 
+}
+.custom-button1:hover {
+  background-color: #1E3A8A;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; 
+}
+
+
+.subheading {
+  font-size: 15px;
+  font-weight: normal; 
+  color: #666;
+  padding-top: 10px;
+}
+.thangsto1{
+  padding-top: 10px;
+}
+
+.thangsbutton{
+  background-color:  #616d8c;
+  color: rgb(255, 255, 255); 
+  margin-left:0px;
+  width: 150px; 
+  height: 40px;
+  display: inline-block;
+  border-radius: 8px;
+  
+}
+.thangsbutton:hover {
+  background-color: #1E3A8A;
+}
+.thangsbuttons{
+  padding-top: 10px;
+}
+.thangs1{
+  display: flex;
+  justify-content: space-between;
+}
