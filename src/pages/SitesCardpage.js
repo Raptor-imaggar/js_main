@@ -85,7 +85,7 @@ export default function Slacesite() {
                     onClick={() => navigate(`/details/${index}`)}
                     className="bookbotton"
                   >
-                    Book
+                    Buy
                   </button>
                 </div>
               </div>
